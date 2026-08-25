@@ -10,5 +10,41 @@ package tp01;
  * @author aluno
  */
 public class Author {
+    public String nome;
+    public String email;
+    public char gender;
+    
+    public Author (String nome, String email, char gender)
+    {
+        this.nome = nome;
+        this.email = email;
+        this.gender = gender;
+    }
+    
+    public String getNome()
+    {
+        return nome;
+    }
+    
+      public String getEmail()
+    {
+        return email;
+    }
+    
+    public void setEmail(String email)
+    {
+        this.email = email;
+    }
+    
+      public char getGender()
+    {
+        return gender;
+    }
+    
+   public String toString()
+   {
+       //"Author[name=Wellington Tuler,email=tulermoraes@yahoo.com,gender=m]".
+       return "nome=" + nome+ ", email= " + email + ", genero= "+ gender;
+   }
     
 }

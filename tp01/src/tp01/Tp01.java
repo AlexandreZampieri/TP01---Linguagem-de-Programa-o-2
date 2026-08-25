@@ -16,6 +16,14 @@ public class Tp01 {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        Author autor = new Author("Roger", "roger@email.com", 'F');
+        
+        System.out.println(autor.getEmail());
+       autor.setEmail("rogerinho@doemail.com");
+       System.out.println(autor.getEmail());
+       
+        System.out.println(autor.toString());
+
     }
     
 }
