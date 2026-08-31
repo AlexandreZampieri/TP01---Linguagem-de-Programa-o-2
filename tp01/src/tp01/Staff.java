@@ -6,7 +6,7 @@ package tp01;
 
 /**
  *
- * @author cavia
+ * Feito por Alexandre Zampieri e Caio Andrade
  */
 public class Staff extends Person {
      private String school;

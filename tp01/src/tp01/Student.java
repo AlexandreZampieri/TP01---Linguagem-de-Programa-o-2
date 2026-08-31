@@ -3,10 +3,9 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
 package tp01;
-
 /**
  *
- * @author cavia
+ * Feito por Alexandre Zampieri e Caio Andrade
  */
 public class Student extends Person {
       private String program;
