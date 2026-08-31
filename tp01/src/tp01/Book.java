@@ -59,8 +59,19 @@ public class Book {
 
     @Override
     public String toString() {
-        //"Book[name=?,authors={Author[name=?,email=?,gender=?],......},price=?,qty=?]".
-        return "nome=" + name + ", autores= " + authors + ", price= " + price + ", qty= " + qty;
+         String s = "Book[name=" + name + ",authors={";
+
+    for (int i = 0; i < authors.length; i++) {
+        s += authors[i];
+
+        if (i < authors.length - 1) {
+            s += ",";
+        }
+    }
+
+    s += "},price=" + price + ",qty=" + qty + "]";
+
+    return s;
     }
 
     public String getAuthorsNames() {
