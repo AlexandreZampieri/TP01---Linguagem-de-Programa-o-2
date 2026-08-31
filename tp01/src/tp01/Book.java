@@ -20,8 +20,6 @@ public class Book {
 
     public Book(String name, Author[] authors, double price) {
 
-        authors[0] = new Author("Autor 01", "autor01@somewhere.com.br", 'm');
-        authors[1] = new Author("Autor 02", "autor02@nowhere.com.br", 'm');
 
         this.name = name;
         this.price = price;
@@ -31,8 +29,6 @@ public class Book {
 
     public Book(String name, Author[] authors, double price, int qty) {
 
-        authors[0] = new Author("Autor 01", "autor01@somewhere.com.br", 'm');
-        authors[1] = new Author("Autor 02", "autor02@nowhere.com.br", 'm');
 
         this.name = name;
         this.price = price;
@@ -61,6 +57,7 @@ public class Book {
         this.qty = qty;
     }
 
+    @Override
     public String toString() {
         //"Book[name=?,authors={Author[name=?,email=?,gender=?],......},price=?,qty=?]".
         return "nome=" + name + ", autores= " + authors + ", price= " + price + ", qty= " + qty;

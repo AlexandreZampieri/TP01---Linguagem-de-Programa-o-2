@@ -41,6 +41,7 @@ public class Author {
         return gender;
     }
     
+    @Override
    public String toString()
    {
        //"Author[name=Wellington Tuler,email=tulermoraes@yahoo.com,gender=m]".

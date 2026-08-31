@@ -16,13 +16,14 @@ public class Tp01 {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        Author autor = new Author("Roger", "roger@email.com", 'F');
-        
-        System.out.println(autor.getEmail());
-       autor.setEmail("rogerinho@doemail.com");
-       System.out.println(autor.getEmail());
-       
-        System.out.println(autor.toString());
+     Author[] authors = new Author[2];
+    authors[0] = new Author("Autor 01", "autor01@somewhere.com.br", 'm');
+    authors[1] = new Author("Autor 02", "autor02@nowhere.com.br", 'm');
+    
+    Book b1 = new Book("tim-tim", authors, 0);
+    
+        System.out.println(b1.toString());
+    
 
     }
     
