@@ -7,13 +7,10 @@ package tp01;
 
 /**
  *
- * @author aluno
+ * Feito por Alexandre Zampieri e Caio Andrade
  */
 public class Tp01 {
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
         // TODO code application logic here
      Author[] authors = new Author[2];
