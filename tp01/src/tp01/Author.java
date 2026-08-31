@@ -7,7 +7,7 @@ package tp01;
 
 /**
  *
- * @author aluno
+ * Feito por Alexandre Zampieri e Caio Andrade
  */
 public class Author {
     public String nome;
