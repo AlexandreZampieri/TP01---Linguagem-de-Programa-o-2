@@ -9,7 +9,7 @@ import java.util.ArrayList;
 
 /**
  *
- * @author aluno
+ * Feito por Alexandre Zampieri e Caio Andrade
  */
 public class Book {
 
